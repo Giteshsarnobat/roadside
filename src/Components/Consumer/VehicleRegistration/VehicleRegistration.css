@@ -1,0 +1,15 @@
+#image{
+    width: 11000px;
+    height: 500px;
+}
+.parent{
+    background-color: rgb(232, 224, 239);
+    margin: 30px;
+    padding:40px;
+    border-radius: 40px;
+}
+
+.btn{
+    border-radius: 20px;
+}
+

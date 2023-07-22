@@ -1,0 +1,107 @@
+#greeting{
+    margin : 10px;
+    margin-top: 80px;
+    color : rgb(243, 200, 57);
+    background-image : url("footer-bg.svg");
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#greeting button{
+    background-color : rgb(243, 200, 57);
+    border-radius: 10px;
+}
+#greeting button:hover{
+    background-color : rgb(245, 190, 11);
+    border-radius: 10px;
+}
+
+#greeting h1{
+    margin-bottom: 0px;
+    padding : 0px;
+}
+
+#subscription{
+    margin-top: 10px;
+    color : rgb(243, 200, 57);
+}
+
+main{
+    /* background-color : #fff9e7; */
+    background-color: #f3e6c2;
+    
+    /* background-image: url("home_banner.png");
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+#main-display1 h1{
+    margin-top: 20px;
+
+}
+
+#services{
+    display: flex;
+}
+
+#services img{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#know-more{
+    border-radius: 10px;
+    background-color: #7fbdc6; /*Color Combo Check */
+    /* background-color: black; */
+    /* color: white; */
+    margin-bottom: 20px;
+}
+
+
+
+#know-more:hover{
+    background-color: #3e5959;
+}
+
+.service-card:hover{
+    transform: scale(1.05);
+    opacity: .9;
+}
+
+#video-card{
+    margin: 10px;
+}
+
+#video{
+    height: 500px;
+    max-width: 1000px;
+    margin : 40px;
+}
+
+.demographics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232b2b;
+    height: 150px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.demographics h5{
+    color : rgb(243, 200, 57);
+}
+
+.demographics p{
+    color: white;
+}
+
+.demographics img{
+    height: 100px;
+}
+
+.demographics:hover{
+    transform: scale(1.05);
+    opacity: .9;
+}

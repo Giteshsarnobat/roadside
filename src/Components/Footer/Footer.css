@@ -1,0 +1,40 @@
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff9e7;
+    flex-shrink: 0 ;
+
+}
+
+.footer-div{
+    padding: 10px;
+    background-color: #232b2b;
+    border-radius: 20px;
+    background-image : url("footer-bg.svg");
+}
+
+.footer-div h3{
+    padding: 10px;
+    color :  rgb(243, 200, 57);
+}
+
+.footer-div span{
+    padding: 10px;
+    color :  white
+}
+
+.footer-div a{
+    padding: 10px;
+    color :  white
+}
+.footer-div a{
+    text-decoration: none;
+}
+
+.footer-div p{
+    padding: 10px;
+    color :  white;
+    margin : 0px
+}

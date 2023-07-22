@@ -1,0 +1,158 @@
+*{
+    margin : 0px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content : flex-end;
+    align-items: center;
+    background-color: white;
+}
+
+.customNav{
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left : 5px;
+    margin-right: auto;
+}
+
+#logo img{
+    margin-right: 2px;
+}
+
+header img{
+    height: 250px;
+    max-width: 50px;
+    max-height: 50px; 
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    background-color: rgb(243, 200, 57);
+}
+
+.login-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 1001;
+    background-color:  rgb(243, 200, 57);
+    border-radius: 20px;
+    width: 80px;
+  }
+  @media (max-width: 767px){}
+    .navbar-collapse {
+      position: relative;
+      z-index: 1000;
+    }
+    .login-btn:hover {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        z-index: 1001;
+        background-color : rgb(245, 190, 11);
+      }
+
+#row{
+    background-color: rgb(223, 212, 233);
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+
+#input{
+    margin: 20px; 
+    padding: 30px;
+   
+    
+}
+
+#parent{
+    background-color: white;
+    margin: 20px;
+    background-color:white;
+    border-radius: 20px;
+}
+
+#btn{
+    display: flex;
+   padding-top: 40px;
+}
+
+ .btn-primary{
+    background-color:  rgb(223, 212, 233);
+    color: black;
+    border-radius: 20px;
+} 
+
+
+#button{
+    border-radius: 20px;
+}
+
+.contact{
+    padding-bottom: 20px;
+}
+
+.heading{
+    padding-bottom: 15px;
+}
+
+#map-content{
+    margin: 0px 40px 40px 40px;
+    padding-top: 20px;
+}
+
+#map-content img{
+    max-width: 800px;
+}
+
+/* footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff9e7;
+}
+
+.footer-div{
+    padding: 10px;
+    background-color: #232b2b;
+    border-radius: 20px;
+    background-image : url("footer-bg.svg");
+}
+
+.footer-div h3{
+    padding: 10px;
+    color :  rgb(243, 200, 57);
+}
+
+.footer-div span{
+    padding: 10px;
+    color :  white
+}
+
+.footer-div a{
+    padding: 10px;
+    color :  white
+}
+.footer-div a{
+    text-decoration: none;
+} */
+
+.selected{
+    background-color: #bf32db;
+}

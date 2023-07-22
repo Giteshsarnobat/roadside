@@ -1,0 +1,18 @@
+#view-past-button{
+    background-color: green;
+}
+#view-past-button:hover{
+    background-color: black;
+}
+
+/* #col:hover{
+    background-color: darkorange;
+} */
+
+#view-pdf-button{
+    background-color: royalblue;
+}
+
+#view-pdf-button:hover{
+    background-color: rgb(7, 40, 142);
+}
